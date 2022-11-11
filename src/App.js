@@ -20,7 +20,7 @@ function App()
     return (
       <div className="relative w-full h-full">
         <Navbar />
-        <div className=" w-full h-full top-[8%] flex justify-between ">
+        <div className="relative w-full h-full top-[8%] flex justify-between ">
           <LeftBar />
           <Outlet />
           <RightBar />
@@ -40,14 +40,14 @@ function App()
   }
   const router = createBrowserRouter([
     {
-      path: "/vibeus-SocialAPP",
+      path: "/",
       element: <ProtectRoute ><Layout /></ProtectRoute>,
       children: [
         {
-          path: "/vibeus-SocialAPP",
+          path: "/",
           element: <Home />
         }, {
-          path: "/vibeus-SocialAPP/profile/:id",
+          path: "/profile/:id",
           element: <Profile />
         }
       ]
