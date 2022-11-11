@@ -19,7 +19,7 @@ function Register()
                     </p>
                     <div className='z-10 flex gap-2 flex-col font-open'>
                         <span className='text-[14px] font-lg Mobile:text-[15px]'>Do you have an account?</span>
-                        <Link to="/Login">
+                        <Link to="/vibeus-SocialAPP/Login">
                             <button className='z-10 bg-black px-6 py-3 text-yellow font-xl cursor-pointer drop-shadow-md shadow-md hover:tracking-wide transition-all hover:text-light-yellow Mobile:px-3 Mobile:py-1 Mobile:w-[30%] capitalize' >login</button>
                         </Link>
                     </div>

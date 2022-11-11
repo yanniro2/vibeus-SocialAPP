@@ -40,24 +40,24 @@ function App()
   }
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/vibeus-SocialAPP",
       element: <ProtectRoute ><Layout /></ProtectRoute>,
       children: [
         {
-          path: "/",
+          path: "/vibeus-SocialAPP",
           element: <Home />
         }, {
-          path: "/profile/:id",
+          path: "/vibeus-SocialAPP/profile/:id",
           element: <Profile />
         }
       ]
     },
     {
-      path: "/login",
+      path: "/vibeus-SocialAPP/login",
       element: <Login />,
     },
     {
-      path: "/Register",
+      path: "/vibeus-SocialAPP/Register",
       element: <Register />,
     },
   ]);
