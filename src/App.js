@@ -20,7 +20,7 @@ function App()
     return (
       <div className="relative w-full h-full">
         <Navbar />
-        <div className="w-full h-full top-[8%] flex justify-between ">
+        <div className=" w-full h-full top-[8%] flex justify-between ">
           <LeftBar />
           <Outlet />
           <RightBar />
@@ -33,31 +33,31 @@ function App()
   const ProtectRoute = ({ children }) =>
   {
     if (!currentUser) {
-      return <Navigate to="/vibeus-SocialAPP/login" />;
+      return <Navigate to="/login" />;
     }
 
     return children;
   }
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/vibeus-SocialAPP",
       element: <ProtectRoute ><Layout /></ProtectRoute>,
       children: [
         {
-          path: "/vibeus-SocialAPP",
+          path: "/",
           element: <Home />
         }, {
-          path: "/vibeus-SocialAPP/profile/:id",
+          path: "/profile/:id",
           element: <Profile />
         }
       ]
     },
     {
-      path: "/vibeus-SocialAPP/login",
+      path: "/login",
       element: <Login />,
     },
     {
-      path: "/vibeus-SocialAPP/Register",
+      path: "/Register",
       element: <Register />,
     },
   ]);
