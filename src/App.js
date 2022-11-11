@@ -33,7 +33,7 @@ function App()
   const ProtectRoute = ({ children }) =>
   {
     if (!currentUser) {
-      return <Navigate to="/login" />;
+      return <Navigate to="/Vibeus/login" />;
     }
 
     return children;
@@ -44,20 +44,20 @@ function App()
       element: <ProtectRoute ><Layout /></ProtectRoute>,
       children: [
         {
-          path: "/",
+          path: "/Vibeus",
           element: <Home />
         }, {
-          path: "/profile/:id",
+          path: "/Vibeus/profile/:id",
           element: <Profile />
         }
       ]
     },
     {
-      path: "/login",
+      path: "/Vibeus/login",
       element: <Login />,
     },
     {
-      path: "/Register",
+      path: "/Vibeus/Register",
       element: <Register />,
     },
   ]);
