@@ -53,11 +53,11 @@ function App()
       ]
     },
     {
-      path: "/vibeus-SocialAPP/login",
+      path: "/login",
       element: <Login />,
     },
     {
-      path: "/vibeus-SocialAPP/Register",
+      path: "/Register",
       element: <Register />,
     },
   ]);
