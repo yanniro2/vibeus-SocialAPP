@@ -19,7 +19,7 @@ function Login()
                     </p>
                     <div className='z-10 flex gap-2 flex-col font-open'>
                         <span className='text-[14px] font-lg Mobile:text-[15px]'>Don't you have an account?</span>
-                        <Link to="/Register">
+                        <Link to="/vibeus-SocialAPP/Register">
                             <button className='z-10 bg-white px-6 py-3 text-blue font-xl cursor-pointer drop-shadow-md shadow-md hover:tracking-wide transition-all hover:text-light-blue Mobile:px-3 Mobile:py-1 Mobile:w-[30%] capitalize' >Register</button>
                         </Link>
                     </div>
