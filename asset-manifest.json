@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vibeus-SocialAPP/static/css/main.6d9b09e7.css",
-    "main.js": "/vibeus-SocialAPP/static/js/main.54bb9970.js",
+    "main.js": "/vibeus-SocialAPP/static/js/main.c35b3883.js",
     "static/js/787.c45b6682.chunk.js": "/vibeus-SocialAPP/static/js/787.c45b6682.chunk.js",
     "static/media/story.jpg": "/vibeus-SocialAPP/static/media/story.501b7fef376ea7d959fe.jpg",
     "static/media/story 3.jpg": "/vibeus-SocialAPP/static/media/story 3.eba17ceee5dfaa33b704.jpg",
@@ -16,11 +16,11 @@
     "static/media/users.jpg": "/vibeus-SocialAPP/static/media/users.b5f2904ed6be1be34b95.jpg",
     "index.html": "/vibeus-SocialAPP/index.html",
     "main.6d9b09e7.css.map": "/vibeus-SocialAPP/static/css/main.6d9b09e7.css.map",
-    "main.54bb9970.js.map": "/vibeus-SocialAPP/static/js/main.54bb9970.js.map",
+    "main.c35b3883.js.map": "/vibeus-SocialAPP/static/js/main.c35b3883.js.map",
     "787.c45b6682.chunk.js.map": "/vibeus-SocialAPP/static/js/787.c45b6682.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d9b09e7.css",
-    "static/js/main.54bb9970.js"
+    "static/js/main.c35b3883.js"
   ]
 }
