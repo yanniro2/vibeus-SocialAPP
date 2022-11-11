@@ -44,10 +44,10 @@ function App()
       element: <ProtectRoute ><Layout /></ProtectRoute>,
       children: [
         {
-          path: "/",
+          path: "/vibeus-SocialAPP",
           element: <Home />
         }, {
-          path: "/profile/:id",
+          path: "/vibeus-SocialAPP/profile/:id",
           element: <Profile />
         }
       ]
