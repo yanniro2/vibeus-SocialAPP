@@ -16,7 +16,7 @@ function Post()
                     <div className="user flex items-center gap-3">
                         <img src={profile} alt="profile img" className='w-[3rem] h-[3rem] rounded-full object-cover drop-shadow-md shadow-2xl ' />
                         <div>
-                            <Link to="Vibeus/profile/1">
+                            <Link to="/vibeus-SocialAPP/profile/1">
                                 <h3 className='font-lg font-popins text-dark-blue'>John deep</h3>
                             </Link>
                             <span className='text-[12px] text-light-gray'>
