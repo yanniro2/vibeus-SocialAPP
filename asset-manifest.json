@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vibeus-SocialAPP/static/css/main.6d9b09e7.css",
+    "main.js": "/vibeus-SocialAPP/static/js/main.c68d9502.js",
+    "static/js/787.c45b6682.chunk.js": "/vibeus-SocialAPP/static/js/787.c45b6682.chunk.js",
+    "static/media/story.jpg": "/vibeus-SocialAPP/static/media/story.501b7fef376ea7d959fe.jpg",
+    "static/media/story 3.jpg": "/vibeus-SocialAPP/static/media/story 3.eba17ceee5dfaa33b704.jpg",
+    "static/media/story 5.jpg": "/vibeus-SocialAPP/static/media/story 5.53d36a6d1725d2d79e98.jpg",
+    "static/media/story 2.jpg": "/vibeus-SocialAPP/static/media/story 2.8528fb294fceb37cbdd4.jpg",
+    "static/media/story 4.jpg": "/vibeus-SocialAPP/static/media/story 4.cea06ae2e91b3cf8a9f0.jpg",
+    "static/media/social.jpg": "/vibeus-SocialAPP/static/media/social.a8444faa808dbbace7a9.jpg",
+    "static/media/register.jpg": "/vibeus-SocialAPP/static/media/register.f0075871b98ad23709d2.jpg",
+    "static/media/story 1.jpg": "/vibeus-SocialAPP/static/media/story 1.2bf4e591a57cf51a60a9.jpg",
+    "static/media/cover.jpg": "/vibeus-SocialAPP/static/media/cover.128fd4b5deba79786bd0.jpg",
+    "static/media/profile.jpg": "/vibeus-SocialAPP/static/media/profile.5fb5c71a3e08aff1c578.jpg",
+    "static/media/users.jpg": "/vibeus-SocialAPP/static/media/users.b5f2904ed6be1be34b95.jpg",
+    "index.html": "/vibeus-SocialAPP/index.html",
+    "main.6d9b09e7.css.map": "/vibeus-SocialAPP/static/css/main.6d9b09e7.css.map",
+    "main.c68d9502.js.map": "/vibeus-SocialAPP/static/js/main.c68d9502.js.map",
+    "787.c45b6682.chunk.js.map": "/vibeus-SocialAPP/static/js/787.c45b6682.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d9b09e7.css",
+    "static/js/main.c68d9502.js"
+  ]
+}
